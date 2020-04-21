@@ -54,7 +54,7 @@
 
 #### 第五步，保存机械臂执行时候的轨迹信息，这一步执行后要求再次执行第二步,因为机械臂动了后才需要记录轨迹变化信息。
 
-`终端6`：
+`终端7`：
 `cd ros_ws/src`,
 `rosrun using_marker endpoint_recorder`
 
