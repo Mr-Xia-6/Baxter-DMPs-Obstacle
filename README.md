@@ -56,7 +56,7 @@
 
 `终端7`：
 `cd ros_ws/src`,
-`rosrun using_marker endpoint_recorder`
+`rosrun using_marker endpoint_recorder.py`
 
 #### 注意：在第三，四步过程中注意修改读取数据文件路径，所有数据均在data文件夹下。
 
