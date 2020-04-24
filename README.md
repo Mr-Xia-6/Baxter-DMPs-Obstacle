@@ -34,7 +34,7 @@
 
 `终端4`：
 `cd ros_ws/src`,
-`rosrun using_marker move_group_python_interface_tutorial joint_states:=/robot/joint_states`
+`rosrun using_marker move_group_python_interface_tutorial.py joint_states:=/robot/joint_states`
 
 程序执行过程中按回车即可，注意观察终端输出三个参数，分别是机械臂末端的x,y,z坐标。
 
