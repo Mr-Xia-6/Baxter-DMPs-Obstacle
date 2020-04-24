@@ -15,17 +15,17 @@
 #### 第一步：启动gazebo和moveit，启动后可拖动机械臂末端，在界面的planning选项下选择plan and execute即可使机械臂到达指定位置。
 
 `终端1`：
-`cd ros_ws/src`,
+`cd ros_ws`,
 `./baxter.sh sim`,
 `roslaunch baxter_gazebo baxter_world.launch`
 
 `终端2`：
-`cd ros_ws/src`,
+`cd ros_ws`,
 `./baxter.sh sim`,
 `rosrun baxter_interface joint_trajectory_action_server.py`
 
 `终端3`：
-`cd ros_ws/src`,
+`cd ros_ws`,
 `./baxter.sh sim`,
 `rosrun baxter_tools enable_robot.py -e`,
 `roslaunch baxter_moveit_config demo_baxter.launch load_robot_description:=true right_electric_gripper:=true left_electric_gripper:=true`
